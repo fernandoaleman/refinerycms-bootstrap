@@ -1,24 +1,25 @@
-# Refinerycms::Bootstrap
+# Refinery CMS Bootstrap
 
-TODO: Write a gem description
+Refinery CMS extension that adds Twitter Bootstrap 3 via [bootstrap-sass-rails](https://github.com/yabawock/bootstrap-sass-rails) gem.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+For Refinery CMS 2.1 stable, add this line to your application's Gemfile:
 
-    gem 'refinerycms-bootstrap'
+    gem 'refinerycms-bootstrap', :github => 'fernandoaleman/refinerycms-bootstrap', :branch => '2-1-stable'
+
+For Refinery CMS 2.1 latest, add this line to your application's Gemfile:
+
+    gem 'refinerycms-bootstrap', :github => 'fernandoaleman/refinerycms-bootstrap', :branch => 'master'
 
 And then execute:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install refinerycms-bootstrap
+    $ bundle install
+    $ rails generate refinery:bootstrap
 
 ## Usage
 
-TODO: Write usage instructions here
+Follow the documentation for [Twitter Bootstrap](http://getbootstrap.com).
 
 ## Contributing
 

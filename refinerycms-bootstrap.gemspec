@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name          = 'refinerycms-bootstrap'
-  s.version       = '0.0.0'
+  s.version       = '0.0.1'
   s.authors       = ['Fernando Aleman']
   s.email         = ['fernandoaleman@mac.com']
-  s.description   = %q{Placeholder for Refinery CMS twitter bootstrap theme}
-  s.summary       = %q{Placeholder for Refinery CMS twitter bootstrap theme}
-  s.homepage      = ''
+  s.description   = 'Refinery CMS extension that adds Twitter Bootstrap 3'
+  s.summary       = 'Refinery CMS extension that adds Twitter Bootstrap 3'
+  s.homepage      = 'https://github.com/fernandoaleman/refinerycms-bootstrap'
   s.license       = 'MIT'
 
   s.files         = `git ls-files`.split($/)
