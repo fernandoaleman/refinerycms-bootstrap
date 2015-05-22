@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'bundler', '~> 1.3'
   s.add_development_dependency 'rake'
-  
-  s.add_dependency 'bootstrap-sass-rails'
+
+  s.add_dependency 'bootstrap-sass', '~> 3.3.4'
+  s.add_dependency 'sass-rails', '>= 3.2'
 end
